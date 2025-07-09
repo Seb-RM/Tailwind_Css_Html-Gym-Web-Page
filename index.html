@@ -1,177 +1,444 @@
 <!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/gympageicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Web Page</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/gympageicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gym Web Page</title>
-  <link rel="stylesheet" href="./src/style.css" />
-</head>
+  <body>
+    <!-- Header -->
+    <header class="py-2 shadow-md">
+      <div
+        class="container mx-auto px-2.5 md:flex md:items-center md:justify-between"
+      >
+        <a class="flex items-center justify-center gap-3">
+          <img src="/gympageicon.svg" alt="Logo de Gympage" class="w-14" />
+          <h2 class="text-2xl font-bold text-gray-700">Gympage</h2>
+        </a>
+        <nav class="my-4 flex justify-center gap-2 md:my-0">
+          <a
+            href=""
+            class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100"
+            >Clases</a
+          >
+          <a
+            href=""
+            class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100"
+            >Inicio</a
+          >
+          <a
+            href=""
+            class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100"
+            >Suscripción</a
+          >
+          <a
+            href=""
+            class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100"
+            >Blog</a
+          >
+        </nav>
+        <div class="my-4 flex justify-center md:my-0">
+          <a
+            href=""
+            class="rounded-lg bg-purple-600 px-6 py-2 font-semibold text-white transition-all duration-200 hover:bg-purple-700"
+            >Contacto</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto p-2.5 lg:max-w-7xl">
+      <!-- Hero -->
+      <section class="py-10 lg:grid lg:grid-cols-2 lg:gap-10">
+        <div
+          class="flex flex-col items-center gap-3 text-center lg:items-start lg:text-left"
+        >
+          <p
+            class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg"
+          >
+            <i class="bx bx-medal"></i>
+            Transforma tu vida
+          </p>
+          <h1 class="my-5 text-3xl font-bold text-purple-950 lg:text-5xl">
+            Con Gympage, el gimnasio que se adapta a ti
+          </h1>
+          <p class="text-purple-900 lg:text-xl">
+            Únete a nuestra comunidad y descubre un nuevo enfoque para alcanzar
+            tus metas de fitness.
+          </p>
+          <div class="mt-5 grid w-full gap-2 lg:flex">
+            <a
+              href=""
+              class="rounded-lg bg-purple-600 px-6 py-2 font-semibold text-white transition-all duration-200 hover:bg-purple-700"
+              >Comienza ahora</a
+            >
+            <a
+              href=""
+              class="rounded-lg border-2 border-purple-300 px-6 py-2 font-semibold transition-all duration-200 hover:bg-purple-100"
+              >Consigue un demo</a
+            >
+          </div>
+        </div>
+        <div class="mt-7">
+          <img
+            src="https://placehold.co/400x250"
+            alt="Imagen de Hero"
+            class="w-full rounded-xl"
+          />
+        </div>
+      </section>
+      <!-- Nuestra Mision -->
+      <section class="py-10">
+        <header class="mb-10 flex flex-col items-center gap-3 text-center">
+          <p
+            class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg"
+          >
+            <i class="bx bxs-flag-alt"></i>
+            Nuestra Misión
+          </p>
+          <h2
+            class="my-5 text-3xl font-bold text-purple-900 lg:max-w-4xl lg:text-5xl"
+          >
+            Transformar vidas a través del fitness
+          </h2>
+          <p class="text-purple-800 lg:max-w-4xl lg:text-lg">
+            En Gympage, nuestra misión es empoderar a las personas para que
+            alcancen su máximo potencial físico y mental.
+          </p>
+        </header>
+        <div
+          class="xl-10 grid gap-5 rounded-2xl border-4 border-purple-100 p-5 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div
+            class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10"
+          >
+            <p
+              class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white"
+            >
+              <i class="bx bxs-user-circle"></i>
+            </p>
+            <a
+              href=""
+              class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2"
+            >
+              <i
+                class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"
+              ></i>
+              Leer Más
+            </a>
+            <h3 class="col-span-2 text-xl font-semibold">
+              Comunidad Inclusiva
+            </h3>
+            <p class="col-span-2 text-sm text-purple-800">
+              En Gympage, creemos que la comunidad es la clave para el éxito en
+              el fitness. Nos esforzamos por crear un ambiente inclusivo y
+              motivador.
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10"
+          >
+            <p
+              class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white"
+            >
+              <i class="bx bxs-medal"></i>
+            </p>
+            <a
+              href=""
+              class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2"
+            >
+              <i
+                class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"
+              ></i>
+              Leer Más
+            </a>
+            <h3 class="col-span-2 text-xl font-semibold">
+              Entrenadores Expertos
+            </h3>
+            <p class="col-span-2 text-sm text-purple-800">
+              Nuestro equipo de entrenadores altamente capacitados está aquí
+              para guiarte en cada paso de tu viaje de fitness.
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10"
+          >
+            <p
+              class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white"
+            >
+              <i class="bx bxs-bowl-rice"></i>
+            </p>
+            <a
+              href=""
+              class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2"
+            >
+              <i
+                class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"
+              ></i>
+              Leer Más
+            </a>
+            <h3 class="col-span-2 text-xl font-semibold">Apoyo Nutricional</h3>
+            <p class="col-span-2 text-sm text-purple-800">
+              La nutrición es una parte fundamental de cualquier programa de
+              fitness. En Gympage, ofrecemos asesoramiento nutricional.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Nuestros Valores -->
+      <section class="py-10">
+        <header class="mb-10 flex flex-col items-center gap-3 text-center">
+          <p
+            class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg"
+          >
+            <i class="bx bx-sun"></i>
+            Nuestros Valores
+          </p>
+          <h2
+            class="my-5 text-3xl font-bold text-purple-900 lg:max-w-4xl lg:text-5xl"
+          >
+            Comprometidos con la excelencia y la comunidad
+          </h2>
+          <p class="text-purple-800 lg:max-w-4xl lg:text-lg">
+            En Gympage, nuestros valores son la base de todo lo que hacemos. Nos
+            comprometemos a brindar un servicio excepcional.
+          </p>
+        </header>
+        <div
+          class="grid gap-5 rounded-2xl border-4 border-pink-100 p-5 md:grid-cols-2 lg:grid-cols-3 xl:p-10"
+        >
+          <div
+            class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10"
+          >
+            <img src="src/images/image.png" alt="" class="w-full" />
+            <p
+              class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8"
+            >
+              <i class="bx bxs-star"></i>
+            </p>
+            <h3 class="mt-5 mb-2.5 text-xl font-semibold">Pasión</h3>
+            <p class="text-sm text-purple-800">
+              Nos apasiona el fitness y estamos dedicados a ayudar a nuestros
+              miembros a alcanzar sus metas.
+            </p>
+            <a
+              href=""
+              class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700"
+              >Leer Más
+              <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i>
+            </a>
+          </div>
+          <div
+            class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10"
+          >
+            <img src="src/images/image.png" alt="" class="w-full" />
+            <p
+              class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8"
+            >
+              <i class="bx bxs-heart"></i>
+            </p>
+            <h3 class="mt-5 mb-2.5 text-xl font-semibold">Compasión</h3>
+            <p class="text-sm text-purple-800">
+              Nos preocupamos por el bienestar de nuestros miembros y nos
+              esforzamos por crear un ambiente acogedor.
+            </p>
+            <a
+              href=""
+              class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700"
+              >Leer Más
+              <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i>
+            </a>
+          </div>
+          <div
+            class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10"
+          >
+            <img src="src/images/image.png" alt="" class="w-full" />
+            <p
+              class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8"
+            >
+              <i class="bx bxs-shield"></i>
+            </p>
+            <h3 class="mt-5 mb-2.5 text-xl font-semibold">Integridad</h3>
+            <p class="text-sm text-purple-800">
+              Actuamos con honestidad y transparencia en todo lo que hacemos.
+              Valoramos la confianza de nuestros miembros.
+            </p>
+            <a
+              href=""
+              class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700"
+              >Leer Más
+              <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Nuestros Precios -->
+      <section class="py-10">
+        <header class="mb-10 flex flex-col items-center gap-3 text-center">
+          <p
+            class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 lg:text-lg"
+          >
+            <i class="bx bxs-dollar-circle"></i>
+            Nuestros Precios
+          </p>
+          <h2
+            class="my-5 text-3xl font-bold text-purple-950 lg:max-w-4xl lg:text-5xl"
+          >
+            Planes flexibles para todos
+          </h2>
+          <p class="text-purple-900 lg:max-w-4xl lg:text-xl">
+            Elige el plan que mejor se adapte a tus necesidades y objetivos.
+            Ofrecemos opciones mensuales y anuales con descuentos exclusivos.
+          </p>
+        </header>
 
-<body>
-  <!-- Header -->
-  <header class="py-2 shadow-md">
-    <div class="container mx-auto px-2.5 md:flex md:items-center md:justify-between">
-      <a class="flex items-center justify-center gap-3">
-        <img src="/gympageicon.svg" alt="Logo de Gympage" class="w-14" />
-        <h2 class="text-2xl font-bold text-gray-700">Gympage</h2>
-      </a>
-      <nav class="my-4 flex justify-center gap-2 md:my-0">
-        <a href=""
-          class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100">Clases</a>
-        <a href=""
-          class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100">Inicio</a>
-        <a href=""
-          class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100">Suscripción</a>
-        <a href=""
-          class="rounded-lg border-2 border-transparent px-4 py-2 font-semibold transition-all duration-300 hover:border-purple-300 hover:bg-purple-100">Blog</a>
-      </nav>
-      <div class="my-4 flex justify-center md:my-0">
-        <a href=""
-          class="rounded-lg bg-purple-600 px-6 py-2 font-semibold text-white transition-all duration-200 hover:bg-purple-700">Contacto</a>
-      </div>
-    </div>
-  </header>
-  <main class="container mx-auto p-2.5 lg:max-w-7xl">
-    <!-- Hero -->
-    <section class="py-10 lg:grid lg:grid-cols-2 lg:gap-10">
-      <div class="flex flex-col items-center gap-3 text-center lg:items-start lg:text-left">
-        <p class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg">
-          <i class="bx bx-medal"></i>
-          Transforma tu vida
-        </p>
-        <h1 class="my-5 text-3xl font-bold text-purple-950 lg:text-5xl">
-          Con Gympage, el gimnasio que se adapta a ti
-        </h1>
-        <p class="text-purple-900 lg:text-xl">
-          Únete a nuestra comunidad y descubre un nuevo enfoque para alcanzar
-          tus metas de fitness.
-        </p>
-        <div class="mt-5 grid w-full gap-2 lg:flex">
-          <a href=""
-            class="rounded-lg bg-purple-600 px-6 py-2 font-semibold text-white transition-all duration-200 hover:bg-purple-700">Comienza
-            ahora</a>
-          <a href=""
-            class="rounded-lg border-2 border-purple-300 px-6 py-2 font-semibold transition-all duration-200 hover:bg-purple-100">Consigue
-            un demo</a>
-        </div>
-      </div>
-      <div class="mt-7">
-        <img src="https://placehold.co/400x250" alt="Imagen de Hero" class="w-full rounded-xl" />
-      </div>
-    </section>
-    <!-- Nuestra Mision -->
-    <section class="py-10">
-      <header class="mb-10 flex flex-col items-center gap-3 text-center">
-        <p class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg">
-          <i class="bx bxs-flag-alt"></i>
-          Nuestra Misión
-        </p>
-        <h2 class="my-5 text-3xl font-bold text-purple-900 lg:max-w-4xl lg:text-5xl">
-          Transformar vidas a través del fitness
-        </h2>
-        <p class="text-purple-800 lg:max-w-4xl lg:text-lg">
-          En Gympage, nuestra misión es empoderar a las personas para que
-          alcancen su máximo potencial físico y mental.
-        </p>
-      </header>
-      <div class="xl-10 grid gap-5 rounded-2xl border-4 border-purple-100 p-5 md:grid-cols-2 lg:grid-cols-3">
-        <div class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10">
-          <p class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white">
-            <i class="bx bxs-user-circle"></i>
-          </p>
-          <a href="" class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2">
-            <i class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"></i>
-            Leer Más
-          </a>
-          <h3 class="col-span-2 text-xl font-semibold">Comunidad Inclusiva</h3>
-          <p class="col-span-2 text-sm text-purple-800">
-            En Gympage, creemos que la comunidad es la clave para el éxito en
-            el fitness. Nos esforzamos por crear un ambiente inclusivo y
-            motivador.
-          </p>
-        </div>
-        <div class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10">
-          <p class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white">
-            <i class="bx bxs-medal"></i>
-          </p>
-          <a href="" class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2">
-            <i class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"></i>
-            Leer Más
-          </a>
-          <h3 class="col-span-2 text-xl font-semibold">Entrenadores Expertos</h3>
-          <p class="col-span-2 text-sm text-purple-800">
-            Nuestro equipo de entrenadores altamente capacitados está aquí
-            para guiarte en cada paso de tu viaje de fitness.
-          </p>
-        </div>
-        <div class="grid grid-cols-2 gap-5 rounded-2xl border-2 border-pink-200 p-5 lg:p-10">
-          <p class="justify-self-start rounded-lg bg-purple-700 p-2 px-2.5 text-2xl text-white">
-            <i class="bx bxs-bowl-rice"></i>
-          </p>
-          <a href="" class="flex items-center gap-1 rounded-lg border-2 border-pink-300 px-3 py-2">
-            <i class="bx bxs-right-top-arrow-circle text-2xl text-purple-600"></i>
-            Leer Más
-          </a>
-          <h3 class="col-span-2 text-xl font-semibold">Apoyo Nutricional</h3>
-          <p class="col-span-2 text-sm text-purple-800">
-            La nutrición es una parte fundamental de cualquier programa de
-            fitness. En Gympage, ofrecemos asesoramiento nutricional.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- Nuestros Valores -->
-    <section class="py-10">
-      <header class="mb-10 flex flex-col items-center gap-3 text-center">
-        <p class="rounded-lg border-2 border-purple-400 bg-purple-100 px-3 py-1 text-lg">
-          <i class="bx bx-sun"></i>
-          Nuestros Valores
-        </p>
-        <h2 class="my-5 text-3xl font-bold text-purple-900 lg:max-w-4xl lg:text-5xl">Comprometidos con la excelencia y la comunidad</h2>
-        <p class="text-purple-800 lg:max-w-4xl lg:text-lg">
-          En Gympage, nuestros valores son la base de todo lo que hacemos. Nos comprometemos a brindar un servicio
-          excepcional.
-        </p>
-      </header>
-      <div class="grid gap-5 rounded-2xl border-4 border-pink-100 p-5 md:grid-cols-2 lg:grid-cols-3 xl:p-10">
-        <div class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10">
-          <img src="src/images/image.png" alt="" class="w-full"/>
-          <p class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8">
-            <i class="bx bxs-star"></i>
-          </p>
-          <h3 class="mt-5 mb-2.5 text-xl font-semibold">Pasión</h3>
-          <p class="text-sm text-purple-800">
-            Nos apasiona el fitness y estamos dedicados a ayudar a nuestros miembros a alcanzar sus metas.
-          </p>
-          <a href="" class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700">Leer Más <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i> </a>
-        </div>
-        <div class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10">
-          <img src="src/images/image.png" alt="" class="w-full"/>
-          <p class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8">
-            <i class="bx bxs-heart"></i>
-          </p>
-          <h3 class="mt-5 mb-2.5 text-xl font-semibold">Compasión</h3>
-          <p class="text-sm text-purple-800">
-            Nos preocupamos por el bienestar de nuestros miembros y nos esforzamos por crear un ambiente acogedor.
-          </p>
-          <a href="" class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700">Leer Más <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i> </a>
-        </div>
-        <div class="flex flex-col items-center rounded-2xl border-2 border-purple-200 p-5 text-center xl:p-10">
-          <img src="src/images/image.png" alt="" class="w-full"/>
-          <p class="-mt-7 inline-flex size-12 items-center justify-center rounded-full bg-purple-700 p-2 px-3.5 text-xl text-white 2xl:-mt-8">
-            <i class="bx bxs-shield"></i>
-          </p>
-          <h3 class="mt-5 mb-2.5 text-xl font-semibold">Integridad</h3>
-          <p class="text-sm text-purple-800">
-            Actuamos con honestidad y transparencia en todo lo que hacemos. Valoramos la confianza de nuestros miembros.
-          </p>
-          <a href="" class="mt-5 inline-flex w-full items-center justify-center gap-1 rounded-lg bg-purple-600 px-3 font-semibold text-white transition-all duration-200 hover:bg-purple-700">Leer Más <i class="bx bx-right-arrow-alt text-3xl lg:text-4xl"></i> </a>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
+        <div>
+          <input id="m" class="peer/m hidden" type="radio" name="status" checked />
+          <label for="m" class="inline-block cursor-pointer rounded-2xl border-2 border-purple-300 px-5 py-3 peer-checked/m:bg-purple-700 peer-checked/m:text-white hover:opacity-85"> Mensual </label>
+          <input id="y" class="peer/y hidden" type="radio" name="status" />
+          <label for="y" class="inline-block cursor-pointer rounded-2xl border-2 border-purple-300 px-5 py-3 peer-checked/y:bg-purple-700 peer-checked/y:text-white hover:opacity-85"> Anual </label>
 
+          <hr />
+
+          <!-- Planes Mensuales -->
+          <div class="hidden peer-checked/m:flex">
+            <!-- Plan Basic -->
+            <div>
+              <h3>
+                <span>
+                  <i class="bx bxs-user"></i>
+                </span>
+                Suscripción Básica
+              </h3>
+              <p>$20.00/mes</p>
+              <p>Opción ideal para quienes buscan un entrenamiento básico y</p>
+              <ul>
+                <li>✔ Acceso al gimnasio</li>
+                <li>✔ Uso de máquinas</li>
+                <li>✔ Locker personal</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+
+            <!-- Plan Premium (Más popular) -->
+            <div>
+              <span> Más Popular </span>
+              <h3>
+                <span>
+                  <i class="bx bxs-crown"></i>
+                </span>
+                Suscripción Premium
+              </h3>
+              <p>$40.00/mes</p>
+              <p>
+                Perfecto para quienes buscan más opciones y clases grupales.
+              </p>
+              <ul>
+                <li>✔ Acceso al gimnasio</li>
+                <li>✔ Clases grupales</li>
+                <li>✔ Locker personal</li>
+                <li>✔ Acceso a áreas exclusivas</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+
+            <!-- Plan Elite -->
+            <div>
+              <h3>
+                <span>
+                  <i class="bx bxs-medal"></i>
+                </span>
+                Suscripción Elite
+              </h3>
+              <p>$60.00/mes</p>
+              <p>
+                Ideal para quienes buscan un entrenamiento personalizado y
+                completo.
+              </p>
+              <ul>
+                <li>✔ Acceso total</li>
+                <li>✔ Entrenador personal</li>
+                <li>✔ Clases grupales</li>
+                <li>✔ Evaluaciones mensuales</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+          </div>
+
+          <!-- Planes Anuales -->
+          <div class="hidden peer-checked/y:flex">
+            <!-- Plan Basic -->
+            <div>
+              <h3>
+                <span>
+                  <i class="bx bxs-user"></i>
+                </span>
+                Suscripción Básica
+              </h3>
+              <p>$180.00/año</p>
+              <p>(25% de descuento aplicado)</p>
+              <p>
+                Opción ideal para quienes buscan un entrenamiento básico y
+                accesible.
+              </p>
+              <ul>
+                <li>✔ Acceso al gimnasio</li>
+                <li>✔ Uso de máquinas</li>
+                <li>✔ Locker personal</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+
+            <!-- Plan Premium (Más popular) -->
+            <div>
+              <span> Más Popular </span>
+              <h3>
+                <span>
+                  <i class="bx bxs-crown"></i>
+                </span>
+                Suscripción Premium
+              </h3>
+              <p>$360.00/año</p>
+              <p>(25% de descuento aplicado)</p>
+              <p>
+                Perfecto para quienes buscan más opciones y clases grupales.
+              </p>
+              <ul>
+                <li>✔ Acceso al gimnasio</li>
+                <li>✔ Clases grupales</li>
+                <li>✔ Locker personal</li>
+                <li>✔ Acceso a áreas exclusivas</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+
+            <!-- Plan Elite -->
+            <div>
+              <h3>
+                <span>
+                  <i class="bx bxs-dumbbell"></i>
+                </span>
+                Suscripción Elite
+              </h3>
+              <p>$540.00/año</p>
+              <p>(25% de descuento aplicado)</p>
+              <p>
+                Ideal para quienes buscan un entrenamiento personalizado y
+                completo.
+              </p>
+              <ul>
+                <li>✔ Acceso total</li>
+                <li>✔ Entrenador personal</li>
+                <li>✔ Clases grupales</li>
+                <li>✔ Evaluaciones mensuales</li>
+              </ul>
+              <a href=""> Suscribirse </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
