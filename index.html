@@ -294,18 +294,18 @@
           </p>
         </header>
 
-        <div>
+        <div class="flex flex-wrap justify-center gap-3 rounded-2xl border-4 border-purple-200 p-10 xl:p-20">
           <input id="m" class="peer/m hidden" type="radio" name="status" checked />
           <label for="m" class="inline-block cursor-pointer rounded-2xl border-2 border-purple-300 px-5 py-3 peer-checked/m:bg-purple-700 peer-checked/m:text-white hover:opacity-85"> Mensual </label>
           <input id="y" class="peer/y hidden" type="radio" name="status" />
           <label for="y" class="inline-block cursor-pointer rounded-2xl border-2 border-purple-300 px-5 py-3 peer-checked/y:bg-purple-700 peer-checked/y:text-white hover:opacity-85"> Anual </label>
 
-          <hr />
+          <hr class="w-full border-2 border-purple-200" />
 
           <!-- Planes Mensuales -->
-          <div class="hidden peer-checked/m:flex">
+          <div class="hidden peer-checked/m:flex  mt-10 w-full flex-wrap gap-5">
             <!-- Plan Basic -->
-            <div>
+            <div class="flex flex-1 flex-col rounded-2xl border-2 border-purple-200 p-5 xl:p-10">
               <h3>
                 <span>
                   <i class="bx bxs-user"></i>
@@ -323,7 +323,7 @@
             </div>
 
             <!-- Plan Premium (Más popular) -->
-            <div>
+            <div class=" relative flex flex-1 flex-col rounded-2xl border-4 border-purple-500 p-5 xl:p-10">
               <span> Más Popular </span>
               <h3>
                 <span>
@@ -345,7 +345,7 @@
             </div>
 
             <!-- Plan Elite -->
-            <div>
+            <div class="flex flex-1 flex-col rounded-2xl border-2 border-purple-200 p-5 xl:p-10">
               <h3>
                 <span>
                   <i class="bx bxs-medal"></i>
@@ -368,9 +368,9 @@
           </div>
 
           <!-- Planes Anuales -->
-          <div class="hidden peer-checked/y:flex">
+          <div class="hidden peer-checked/y:flex mt-10 w-full flex-wrap gap-5">
             <!-- Plan Basic -->
-            <div>
+            <div class="flex flex-1 flex-col rounded-2xl border-2 border-purple-200 p-5 xl:p-10">
               <h3>
                 <span>
                   <i class="bx bxs-user"></i>
@@ -392,7 +392,7 @@
             </div>
 
             <!-- Plan Premium (Más popular) -->
-            <div>
+            <div class="relative flex flex-1 flex-col rounded-2xl border-4 border-purple-500 p-5 xl:p-10">
               <span> Más Popular </span>
               <h3>
                 <span>
@@ -415,7 +415,7 @@
             </div>
 
             <!-- Plan Elite -->
-            <div>
+            <div class="flex flex-1 flex-col rounded-2xl border-2 border-purple-200 p-5 xl:p-10">
               <h3>
                 <span>
                   <i class="bx bxs-dumbbell"></i>
