@@ -2,5 +2,4 @@
 @import "boxicons/css/boxicons.min.css";
 
 /* Tailwind v4: use preflight + utilities */
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
