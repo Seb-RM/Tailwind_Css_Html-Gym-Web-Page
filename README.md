@@ -23,7 +23,7 @@ Este proyecto sirve como caso de estudio para desarrolladores interesados en la 
 
 ![Vista Previa de Gympage](public/Captura-GymWebPage.png)
 
-La página presenta un diseño limpio con gradientes púrpuras, transiciones suaves y elementos interactivos como botones hover. Incluye un header fijo, secciones scrollables y un footer con redes sociales. Para ver la demo en vivo, abre `index.html` en tu navegador o ejecuta el servidor de desarrollo con Vite.
+La página presenta un diseño limpio con gradientes púrpuras, transiciones suaves y elementos interactivos como botones hover. Incluye un header fijo, secciones scrollables y un footer con redes sociales. Para ver la demo en vivo, abre `index.html` en tu navegador o ejecuta el servidor de desarrollo con Vite. También puedes visitar la [demo en vivo](https://seb-rm.github.io/Tailwind_Css_Html-Gym-Web-Page/).
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -32,8 +32,8 @@ La página presenta un diseño limpio con gradientes púrpuras, transiciones sua
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | 5 | Estructura semántica de la página |
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) | 4.1.11 | Framework CSS para estilos utilitarios |
 | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white) | 7.0.0 | Herramienta de desarrollo y build |
-| ![Boxicons](https://img.shields.io/badge/Boxicons-000000?style=flat&logo=box&logoColor=white) | 2.1.4 | Biblioteca de íconos vectoriales |
-| ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black) | 3.6.2 | Formateador de código |
+| ![A shield-shaped badge with Boxicons logo and text Boxicons-000000 against white background](https://img.shields.io/badge/Boxicons-000000?style=flat&logo=box&logoColor=white) | 2.1.4 | Biblioteca de íconos vectoriales |
+| ![A shield-shaped badge with yellow background displaying Prettier logo and text Prettier-F7B93E](https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black) | 3.6.2 | Formateador de código |
 
 ## 🚀 Instalación y Configuración
 
@@ -46,7 +46,7 @@ La página presenta un diseño limpio con gradientes púrpuras, transiciones sua
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/yourusername/gympage.git
+git clone https://github.com/Seb-RM/Tailwind_Css_Html-Gym-Web-Page.git
 cd gympage
 
 # Instala dependencias
