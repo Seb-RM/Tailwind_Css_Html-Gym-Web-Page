@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Gympage - Gym Web Page
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/gympage)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Seb-RM/Tailwind_Css_Html-Gym-Web-Page)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/status-Complete-success.svg)](STATUS)
 
@@ -47,7 +47,7 @@ La página presenta un diseño limpio con gradientes púrpuras, transiciones sua
 ```bash
 # Clona el repositorio
 git clone https://github.com/Seb-RM/Tailwind_Css_Html-Gym-Web-Page.git
-cd gympage
+cd Tailwind_Css_Html-Gym-Web-Page
 
 # Instala dependencias
 npm install
@@ -153,7 +153,7 @@ El proyecto sigue una arquitectura simple de página estática:
 - **Estructura de Archivos**:
 
   ```text
-  gympage/
+  Tailwind_Css_Html-Gym-Web-Page/
   ├── index.html          # Página principal
   ├── src/
   │   ├── style.css       # Estilos globales
